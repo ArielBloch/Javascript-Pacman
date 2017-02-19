@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dropbox Pacman</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper">
+      <canvas id="board" width="1200px"; height="800px;">
+        Your browser does not support canvas. Please try again with a different browser.
+      </canvas>
+      <canvas id="main">
+      </canvas>
+    </div> 
+
+    <div class="score">SCORE: <span id="score"></span></div>
+    <div class="game-over" id="game-over">GAME OVER<p><span onclick="game.restart()">Restart</span></p></div>
+<!--     <div class="loading" id="loading">LOADING...<p>Please wait</p></div>
+ -->
+    <script src="src/app.js"></script>
+  </body>
+</html>
