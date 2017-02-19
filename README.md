@@ -1,6 +1,7 @@
 # DropboxPacman
 A lightweight Javascript Dropbox-themed Pacman, built during hackweek in three days.
 
+(game framerate is much better then this animated GIF):
 ![Pacman Animation](https://github.com/ArielBloch/DropboxPacman/blob/master/gifs/pacman.gif "Pacman Animation")
 
 Known limitations for this version:
